@@ -1,10 +1,17 @@
-# Yasnippet for golang
+# yasnippet for golang
 
-This is yasnippet for go-mode
+This is yasnippet for emacs go-mode.
+
+YASnippet is here : https://github.com/capitaomorte/yasnippet
 
 # Installation
 
+Clone this repository:
+
+    $ git clone https://github.com/atotto/yasnippet-golang.git
+
+Add the following in your `.emacs` file:
 
 ```elisp
-(add-to-list 'yas-snippet-dirs "path/to/this/repository")
+(add-to-list 'yas-snippet-dirs "path/to/yasnippet-golang")
 ```
