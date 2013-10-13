@@ -15,3 +15,7 @@ Add the following in your `.emacs` file:
 ```elisp
 (add-to-list 'yas-snippet-dirs "path/to/yasnippet-golang")
 ```
+
+# License
+
+MIT License
