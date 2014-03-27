@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: tests
+# key: tests
+# contributor : @atotto
+# --
+tests := []struct {
+	expect
+}{
+	{},
+}
+
+for n, tt := range tests {
+	t.Errorf("#%d want %v, got %v", tt.expect, actual)
+}
