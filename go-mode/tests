@@ -4,11 +4,14 @@
 # contributor : @atotto
 # --
 tests := []struct {
-	expect
+	expected
 }{
 	{},
 }
 
 for n, tt := range tests {
-	t.Errorf("#%d want %v, got %v", tt.expect, actual)
+	actual := 
+	if tt.expected != actual {
+		t.Errorf("#%d want %v, got %v", n, tt.expected, actual)
+	}
 }
