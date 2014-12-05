@@ -4,4 +4,3 @@
 # contributor : @atotto
 # --
 fmt.Printf("%+v$0\n",$1)
-
