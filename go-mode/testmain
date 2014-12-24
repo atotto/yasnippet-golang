@@ -13,9 +13,9 @@ func TestMain(m *testing.M) {
 }
 
 func setup() {
-	println("setup")
+	$1
 }
 
 func teardown() {
-	println("teardown")
+	$2
 }
